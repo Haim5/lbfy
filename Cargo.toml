@@ -1,0 +1,15 @@
+[package]
+name = "lbfy"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
+tracing-subscriber = "0.3"
+prometheus = { version = "0.13", features = ["process"] }
+lazy_static = "1.4"
+hyper = { version = "0.14", features = ["full"] }
+rand = "0.8"
